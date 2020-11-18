@@ -1,0 +1,53 @@
+.service-section{
+    padding: 50px;
+}
+.serv-divider{
+    width: 5px;
+    height: 22px;
+    left: 150px;
+    top: 679px;
+    background: #9043C3;
+    float: left;
+}
+.btn-outline-service{
+    color: #252525;
+    border-color: $primary-color;
+    border: 2px solid $primary-color;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.service-content-wrapper{
+    padding: 0px 117px 0px 0px;
+}
+.service-heading{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
+.service-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #252525;
+    padding-top: 25px;
+}
+.box-container{
+    border: 1px solid rgba(37, 37, 37, 0.2);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.box-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 10px;
+}
