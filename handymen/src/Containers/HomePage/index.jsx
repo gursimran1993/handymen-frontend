@@ -5,6 +5,7 @@ import Services from "./components/services"
 import WCU from "./components/wcu"
 import About from "./components/about"
 import Faq from "./components/faq"
+import Login from "../Login"
 import SpotlightBanner1 from "../../Assets/images/spotlight/1.svg"
 import SpotlightBanner2 from "../../Assets/images/spotlight/2.svg"
 import SpotlightBanner3 from "../../Assets/images/spotlight/3.svg"
@@ -105,6 +106,7 @@ class Home extends Component {
                 </div>
                 <About />
                 <Faq />
+                <Login />
             </div>
         )
     }

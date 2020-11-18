@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import { Component } from "react";
 import Logo from "../../Assets/images/logo.svg"
+import NoUser from "../../Assets/images/noUser.svg"
 
 
 class Header extends Component {
@@ -21,15 +22,19 @@ class Header extends Component {
                             <li className="nav-item">
                                 <a className="li-color nav-link" href="#">About Us</a>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                                </a>
+                            <li className="nav-item dropdown header-drop">
+                                <div className="nav-link header-drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div className="burger-bar">
+                                        <span className="bar"></span>
+                                        <span className="bar"></span>
+                                        <span className="bar"></span>
+                                    </div>
+                                    <img src={NoUser} />
+                                </div>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
+                                    <a className="dropdown-item" data-toggle="modal" data-target="#staticBackdrop">Sign Up</a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Something else here</a>
+                                    <a className="dropdown-item" href="#">Login</a>
                                 </div>
                             </li>
                         </ul>

@@ -1,0 +1,25 @@
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem -1rem;
+    float: left;
+}
+.modal-content{
+    border-radius: 50px;
+    padding: 2px 20px;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+}
+.modal-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 30%;
+    height: 1px;
+    left: 25%;
+    width: 50%;
+    border-bottom: 1px solid #B0B0B0;
+}
