@@ -13,13 +13,34 @@
     text-align: center;
     margin: auto;
 }
+.modal-header{
+    border-bottom: 0px;
+}
 .modal-header:before {
     content: "";
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 18%;
     height: 1px;
     left: 25%;
     width: 50%;
     border-bottom: 1px solid #B0B0B0;
+}
+.form-login{
+    border: 1px solid #B0B0B0;
+    padding: 20px 0px;
+    border-radius: 25px;
+}
+.form-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+.form-input{
+    border: 0;
+    padding: 0;
+}
+.form-label{
+    margin-bottom: 0px;
 }

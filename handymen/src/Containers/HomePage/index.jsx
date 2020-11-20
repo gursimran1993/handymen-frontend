@@ -18,7 +18,7 @@ const services = [
     { title: "Bathroom Installation & Repair", img: "bathroom", id: 3 },
     { title: "Computer Setup & Repair", img: "computer", id: 4 },
     { title: "Restoration Services", img: "restoration", id: 5 },
-    { title: "Electronic Installation & Repair", img: "electrical", id: 6 }
+    { title: "Electronic Installation & Repair", img: "electrical", id: 6 },
 ]
 const wcu = [
     { title: "Trustworthy Handymen", img: "trustworthy", content: "Our handymen are not only skillful, but also very trustworthy and commited to a good customer experience.", id: 1 },
