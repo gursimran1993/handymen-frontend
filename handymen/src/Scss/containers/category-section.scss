@@ -1,0 +1,63 @@
+.category-postal-section{
+    padding: 20px;
+}
+.postal-code-category{
+    height: 250px;
+    width: 100%;
+    padding: 30px;
+
+}
+.listing-page-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 26px;
+    letter-spacing: -0.0018em;
+    color: #252525;
+    margin-bottom: 32px;
+}
+.listing-page-sub-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.0018em;
+    color: #252525;
+    margin-bottom: 32px;
+}
+.listing-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.0018em;
+    color: #252525;
+    align-self: center;
+}
+.listing-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.color-purple{
+    color:#9043C3
+}
+.align-self{
+    align-self: center;
+}
+.listing-sub-title{
+    font-style: normal;
+    font-weight: 500;
+    align-self: center;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.0018em;
+    color: #252525;
+}
+.listing-btn{
+    background: #9043C3;
+    border-radius: 25px;
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+}

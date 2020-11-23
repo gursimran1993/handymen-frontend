@@ -1,9 +1,9 @@
 import React from "react"
 import Search from "../../../Assets/images/search.svg"
 
-const searchByCode = () => {
+const searchByCode = (props) => {
     return (
-        <div className="postal-code-container">
+        <div className={props.border ? "postal-code-container border-1" : "postal-code-container"}>
             <div className="dropdown float-left">
                 <div className="dropdown-postal dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <p className="postal-main-heading">Postal Code</p>
